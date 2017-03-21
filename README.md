@@ -10,4 +10,4 @@ Set a cron job for `fetch.php` for every minute.
 status.json 
 `{"data":{"streaming":0}}`
 
-`result.php` gets `status.json` and will set the `$streaming` variable to `1` for currently streaming and `2` for not streaming.
+`result.php` gets `status.json` and will set the `$streaming` variable to `1` for currently streaming and `0` for not streaming.
